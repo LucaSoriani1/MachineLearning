@@ -1,0 +1,24 @@
+AirCanva_old/
+VocalAssistant_old/
+AirCanva/img/footer/
+AirCanva/img/old/
+AirCanva/img/saves/
+tempCodeRunnerFile.py
+__pycache__/
+TODO.txt
+*.wav
+VocalAssistant/module/assistant/utils/model/
+VocalAssistant/module/assistant/utils/dictionary/
+AirCanva_TextReconition/script/module/img/saves/20230324_144937.jpg
+AirCanva_TextReconition/script/module/img/saves/20230324_150556.jpg
+AirCanva_TextReconition/script/module/air_canva copy.py
+AirCanva_TextReconition/script/module/air_canva.py
+AirCanva_TextReconition/script/module/hand_tracking.py
+AirCanva_TextReconition/script/module/utils.py
+AirCanva_TextReconition/script/module/img/header/0.jpg
+AirCanva_TextReconition/script/module/img/header/1.jpg
+AirCanva_TextReconition/script/module/img/header/2.jpg
+AirCanva_TextReconition/script/module/img/header/3.jpg
+AirCanva_TextReconition/script/module/img/header/4.jpg
+AirCanva_TextReconition/script/module/img/header/5.jpg
+AirCanva_TextReconition/script/module/img/header/6.jpg

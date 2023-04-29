@@ -1,0 +1,48 @@
+{
+  "ITALIAN": {
+    "all": ["tutte", "tutto", "tutti", "tutta"],
+    "listening": ["Sto ascoltando..."],
+    "training_model": ["Sto preparando i dati per il modello..."],
+    "saving_model": ["Sto salvando i dati..."],
+    "done_model": ["Dati pronti! Adesso alleno il modello"],
+    "add_user_sentences": [
+      "Ciao Computer",
+      "Come va?",
+      "Che ore sono?",
+      "Che tempo c'è oggi",
+      "Metti Snow dei Red Hot Chili Peppers su Youtube",
+      "Aggiungi una nota",
+      "Crea un impegno in agenda",
+      "Cerca su google come fare la pizza",
+      "Che ore sono a Pechino?",
+      "Che devo fare tra 3 giorni?"
+    ],
+    "add_user_start":["Buongiorno, io sono il tuo assistente vocale! Ora ti elenco una serie di frasi, ti chiedo di ripeterle in modo che posso imparare la tua voce"],
+    "add_user":["Ora scrivi il nome che vuoi associare a questo utente"],
+    "add_user_end":["Abbiamo finito! Ora alleno il modello"],
+    "initial_load_noise_start":["Ora prenderò qualche audio di rumore di fondo, per favore cerca di non parlare finchè non te lo dico io. Ci metterò circa un minuto. Iniziamo!"]
+  },
+  "ENGLISH": {
+    "all": ["all", "whole", "entire", "everything"],
+    "listening": ["Listening..."],
+    "training_model": ["Preparing data for the model...."],
+    "saving_model": ["Saving the data..."],
+    "done_model": ["Data saved! Now I will train the model"],
+    "add_user_sentences": [
+      "Hello Computer",
+      "How are you?",
+      "What time is it?",
+      "What's the weather today",
+      "Put Snow by the Red Hot Chili Peppers on YouTube",
+      "Add a note",
+      "Create an agenda commitment",
+      "Google how to make pizza",
+      "What time is it in Beijing?",
+      "What do I have to do in three days?"
+    ],
+    "add_user_start":["Good morning, I am your voice assistant! I will now list a series of phrases for you, I ask you to repeat them so that I can learn your voice"],
+    "add_user":["Now write the name you want to associate with this user"],
+    "add_user_end":["We've done! Now I will train the model."],
+    "initial_load_noise_start":["I will now take some audio of background noise, please try not to speak until I tell you. I'll be about a minute. Let's get started!"]
+  }
+}

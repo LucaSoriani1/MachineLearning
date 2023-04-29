@@ -1,0 +1,393 @@
+{
+  "intents": [
+    {
+      "tag": "active",
+      "patterns": [
+        "Computer",
+        "Hello computer",
+        "Nice computer",
+        "Hey computer",
+        "Good morning computer",
+        "Can you hear me computer?",
+        "Computer, do you hear?"
+      ],
+      "responses": [
+        "Here I am",
+        "Hello! What can I do for you?",
+        "I am at your disposal",
+        "I hear you loud and clear!",
+        "What are we doing today?",
+        "How can I help you?"
+      ]
+    },
+    {
+      "tag": "welcome",
+      "patterns": [
+        "Hey",
+        "Hello",
+        "Hi bro",
+        "Nice bro!",
+        "Hey",
+        "Hi",
+        "Good morning",
+        "How are you?",
+        "Everything OK?",
+        "Hi, how are you?",
+        "Hi mate",
+        "Hi dude",
+        "Can you hear me?"
+      ],
+      "responses": [
+        "Hello sir!",
+        "Hello! What can I do for you?",
+        "Hey, how can I help you?",
+        "What a pleasure!",
+        "What are we doing today?"
+      ]
+    },
+    {
+      "tag": "add_note",
+      "patterns": [
+        "Create a note",
+        "New note",
+        "Please create a note",
+        "I would like to create a note",
+        "I would like to create a note",
+        "Add a note",
+        "Create a new note",
+        "Note",
+        "Create a note",
+        "Add a new note",
+        "Add Note",
+        "Add notes",
+        "To notes",
+        "Add to notes",
+        "Write note",
+        "On notes",
+        "Write on notes",
+        "Add notes",
+        "Add to notes"
+      ],
+      "responses": [
+        "Sure",
+        "I'll add a note right away",
+        "I'll get a pen and paper!",
+        "Sure, give me a moment"
+      ]
+    },
+    {
+      "tag": "get_notes",
+      "patterns": [
+        "Let me see the notes",
+        "I want to see the notes",
+        "I would like to see the notes",
+        "Show me the notes",
+        "Show me the notes",
+        "Open notes",
+        "Show notes",
+        "Show me the notes",
+        "Open note",
+        "Show note",
+        "Open note with title",
+        "Show note with title",
+        "Show me the note"
+      ],
+      "responses": [
+        "Sure",
+        "I'll get the notepad right away",
+        "Yes, I'll get the notes now",
+        "Sure, give me a moment"
+      ]
+    },
+    {
+      "tag": "delete_note",
+      "patterns": [
+        "Delete all notes",
+        "Discard note",
+        "Delete note",
+        "Discard all notes",
+        "Delete all notes",
+        "Delete notes",
+        "Delete a note",
+        "Drop a note"
+      ],
+      "responses": [
+        "It happens to everyone to make mistakes",
+        "Let's do some cleaning",
+        "Sure, I'll get pen and paper",
+        "OK, I'm opening the notes"
+      ]
+    },
+    {
+      "tag": "get_agenda",
+      "patterns": [
+        "Show commitments in agenda",
+        "Show commitments in the diary for",
+        "What's in my diary?",
+        "What's in my diary for",
+        "Show me the to-do list",
+        "Show me the commitments in my diary for",
+        "Show me the to-do lists in my diary",
+        "Show me the commitments",
+        "Show me the commitments",
+        "What commitments I have for tomorrow",
+        "What I have to do today",
+        "What commitments I have for the day after tomorrow"
+      ],
+      "responses": [
+        "Sure, I'll open the diary now.",
+        "Here's your diary.",
+        "I'll show you the diary right away",
+        "Here you go.",
+        "Right away"
+      ]
+    },
+    {
+      "tag": "add_agenda",
+      "patterns": [
+        "I want to add a commitment in the diary",
+        "Add a commitment in the diary",
+        "Add a commitment for the",
+        "Add to agenda",
+        "Write a commitment in agenda",
+        "Add to calendar",
+        "Write in agenda",
+        "Write in diary",
+        "Add to diary",
+        "Add commitment in diary for tomorrow",
+        "Add to diary for today",
+        "Add to calendar for the day after tomorrow"
+      ],
+      "responses": [
+        "What a busy person!",
+        "Of course.",
+        "But if you never have anything to do.... Whatever!",
+        "I'll get a pen and paper!"
+      ]
+    },
+    {
+      "tag": "mark_as_done",
+      "patterns": [
+        "Mark it as done in the diary",
+        "Mark as done in diary",
+        "Mark commitment as done in diary",
+        "Mark commitment as done"
+      ],
+      "responses": [
+        "Sure, I'll write down everything you want.",
+        "Sure, I'll open my diary",
+        "right away, give me a second",
+        "Sure"
+      ]
+    },
+
+    {
+      "tag": "deactive",
+      "patterns": [
+        "Goodbye, turn off",
+        "Bye, see you next time",
+        "Bye",
+        "Bye bye",
+        "Goodbye",
+        "Switch off",
+        "Turn off"
+      ],
+      "responses": [
+        "I'm sorry to leave you",
+        "Call me if you need me",
+        "See you later",
+        "I'm here if you need me"
+      ]
+    },
+    {
+      "tag": "turn_off",
+      "patterns": ["Exit", "Stop ", "Shut down"],
+      "responses": ["I am stopping"]
+    },
+    {
+      "tag": "confirm",
+      "patterns": [
+        "Sure.",
+        "Yes.",
+        "Of course",
+        "Absolutely",
+        "Certainly",
+        "Definitely",
+        "Definitely yes",
+        "All right",
+        "Yes",
+        "I confirm",
+        "Confirm"
+      ],
+      "responses": ["All right.", "Done.", "OK, I'll do it now", "Perfect"]
+    },
+    {
+      "tag": "deny",
+      "patterns": [
+        "No.",
+        "Absolutely not",
+        "Forget it",
+        "Next time",
+        "Nothing",
+        "Cancel"
+      ],
+      "responses": [
+        "Then let's move on.",
+        "Whatever, maybe next time.",
+        "OK, whatever",
+        "Alright",
+        "Sure, you're in charge!"
+      ]
+    },
+    {
+      "tag": "camera",
+      "patterns": [
+        "Open the camera",
+        "Take a photo",
+        "Photo",
+        "Camera",
+        "Take a photo?"
+      ],
+      "responses": [
+        "Sure, I'll open the camera.",
+        "Why not",
+        "Sure, you're beautiful",
+        "All right",
+        "I'm opening the camera"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the time.",
+        "Time.",
+        "Will you tell me the time?",
+        "Will you tell me what time it is?",
+        "What time is it at",
+        "What time is in",
+        "What time is it in",
+        "What time is it at my place",
+        "What time is it here",
+        "What time is here"
+      ],
+      "responses": ["I'll tell you right now."]
+    },
+    {
+      "tag": "not_understand",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand.",
+        "Can you repeat that?",
+        "There was some noise, can you repeat it?",
+        "I didn't understand. Please repeat."
+      ]
+    },
+    {
+      "tag": "search_google",
+      "patterns": [
+        "Google search",
+        "Search the Internet",
+        "Google me",
+        "Search for",
+        "Find on Google",
+        "Open Google on",
+        "Open Google",
+        "Search for",
+        "Do a search",
+        "Google for me"
+      ],
+      "responses": [
+        "Sure, I'll open Google right now.",
+        "On Google I found this",
+        "I found these results"
+      ]
+    },
+    {
+      "tag": "open_youtube",
+      "patterns": [
+        "Open YouTube",
+        "Put Youtube up",
+        "Open Youtube up",
+        "Put some music on Youtube",
+        "Open Youtube on",
+        "Search Youtube"
+      ],
+      "responses": [
+        "Sure, I'll open YouTube right away.",
+        "I like music!",
+        "Here's youtube.",
+        "I'm opening YouTube"
+      ]
+    },
+    {
+      "tag": "search_news",
+      "patterns": [
+        "Show me the news",
+        "Show me the news for",
+        "What news is on",
+        "What's happening in the world",
+        "Open the news",
+        "Search the news for",
+        "Google News",
+        "Search news on"
+      ],
+      "responses": [
+        "Sure, here's the news for you.",
+        "What a cultured guy!",
+        "Let's see what happened today",
+        "I'll open Google News right away"
+      ]
+    },
+    {
+      "tag": "search_wiki",
+      "patterns": [
+        "Wikipedia search",
+        "What does Wikipedia say for",
+        "Open Wikipedia on",
+        "Look me up on Wikipedia",
+        "Wikipedia"
+      ],
+      "responses": [
+        "Sure, that's what I found",
+        "Here's Wikipedia.",
+        "What a cultured guy!",
+        "I'll open Wikipedia right now"
+      ]
+    },
+    {
+      "tag": "get_date",
+      "patterns": [
+        "What day is the",
+        "What day will it be on",
+        "Tell me what day it is on",
+        "Tell me what day it will be on",
+        "Will you tell me what day it is on",
+        "What day was the",
+        "Tell me what day it was on",
+        "Tell me what day was the",
+        "What day was the",
+        "What day will it be in",
+        "What day was days ago"
+      ],
+      "responses": [
+        "Sure, I'll look at the calendar.",
+        "I'll look at the calendar for a moment.",
+        "Sure, I'll tell you right away"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather",
+        "What's the weather like",
+        "It's raining in",
+        "It's sunny in",
+        "What's the weather at",
+        "What's the temperature at",
+        "What's the weather at my place"
+      ],
+      "responses": ["I'll tell you now.", "I'll look now"]
+    }
+  ]
+}

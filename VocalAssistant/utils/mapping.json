@@ -1,0 +1,20 @@
+{
+    "active": "activate()",
+    "shutdown": "shutdown()",
+    "deactive": "deactivate()",
+    "not_understand": "",
+    "time": "get_time_by_city(message, tag)",
+    "get_date": "get_date(message)",
+    "add_agenda": "addAgenda(message, t)",
+    "get_agenda": "getAgenda(message)",
+    "mark_as_done": "markAsDoneAgenda(message, t)",
+    "camera": "takePicture()",
+    "add_note": "addNote(message, t)",
+    "get_notes": "getNotes(message, t)",
+    "delete_note": "deleteNotes(message, t)",
+    "search_google": "searchGoogle(message, t)",
+    "open_youtube": "openYoutube(message, t)",
+    "search_wiki": "searchWiki(message, t)",
+    "search_news": "searchNews(message, t)",
+    "weather": "getWeather(message, t)"
+}

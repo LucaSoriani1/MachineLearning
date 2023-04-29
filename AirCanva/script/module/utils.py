@@ -2,7 +2,7 @@ import os
 import datetime
 
 # Setting the thickness of the brush.
-BRUSH_THICKNESS = 11
+BRUSH_THICKNESS = 30
 
 # A constant that is used to set the timer for the countdown.
 TIMER = 3

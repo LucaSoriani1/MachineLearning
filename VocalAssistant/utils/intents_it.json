@@ -1,0 +1,417 @@
+{
+  "intents": [
+    {
+      "tag": "active",
+      "patterns": [
+        "Computer",
+        "Salve computer",
+        "Ciao computer",
+        "Bella computer",
+        "Ei computer",
+        "Buongiorno computer",
+        "Buon giorno computer",
+        "Mi senti computer?",
+        "Computer, senti?"
+      ],
+      "responses": [
+        "Eccomi",
+        "Ciao! che posso fare per te?",
+        "Sono a tua disposizione",
+        "Ti sento forte e chiaro!",
+        "Che facciamo oggi?",
+        "Come posso esserti utile?"
+      ]
+    },
+    {
+      "tag": "welcome",
+      "patterns": [
+        "Hey",
+        "Salve",
+        "Ciao amico",
+        "Bella bro!",
+        "Ei",
+        "Ciao",
+        "Buongiorno",
+        "Buon giorno",
+        "Come va?",
+        "Tutto ok?",
+        "Ciao, come va?",
+        "Ciao amico",
+        "Ciao bello",
+        "Mi senti?"
+      ],
+      "responses": [
+        "Salve signore!",
+        "Ciao! che posso fare per te?",
+        "Hey, come posso aiutarti?",
+        "Che piacere!",
+        "Che facciamo oggi?"
+      ]
+    },
+    {
+      "tag": "deactive",
+      "patterns": ["Addio, alla prossima", "Bye", "Bye bye", "Addio", "Stop"],
+      "responses": [
+        "Mi dispiace lasciarti",
+        "Chiamami se hai bisogno",
+        "A dopo",
+        "Sono qui se hai bisogno"
+      ]
+    },
+    {
+      "tag": "shutdown",
+      "patterns": [
+        "Esci",
+        "Arresta il programma",
+        "Esci dal programma",
+        "Arresta",
+        "Spegni il programma",
+        "Chiudi il programma"
+      ],
+      "responses": [
+        "Arresto il programma",
+        "Sto arrestando il programma",
+        "Sto arrestando"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "Che ore sono?",
+        "Che ora è?",
+        "Dimmi l'orario",
+        "Orario",
+        "Mi dici l'ora?",
+        "Mi dici che ora è?",
+        "Che ore sono a",
+        "Che ora è a",
+        "Che ore sono ad",
+        "Che ore sono in",
+        "Che ora è ad",
+        "Che ora è in",
+        "Che ore sono da me",
+        "Che ora è da me",
+        "Che ora è qui",
+        "Che ore sono qui"
+      ],
+      "responses": ["Te lo dico subito"]
+    },
+    {
+      "tag": "get_date",
+      "patterns": [
+        "Che giorno è il",
+        "Che giorno sarà il",
+        "Mi dici che giorno è il",
+        "Dimmi che giorno sarà il",
+        "Mi dici che giorno è il",
+        "Che giorno era il",
+        "Dimmi che giorno era il",
+        "Mi dici che giorno era il",
+        "Che giorno era del",
+        "Che giorno sarà tra",
+        "Che giorno era giorni fa"
+      ],
+      "responses": [
+        "Certo, guardo il calendario",
+        "Guardo un attimo il calendario",
+        "Certo, te lo dico subito"
+      ]
+    },
+    {
+      "tag": "add_note",
+      "patterns": [
+        "Crea una nota",
+        "Nuova nota",
+        "Perfavore, crea una nota",
+        "Vorrei creare una nota",
+        "Voglio creare una nota",
+        "Aggiungi una nota",
+        "Crea una nuova nota",
+        "Appunto",
+        "Crea un appunto",
+        "Aggiungi una nuova nota",
+        "Aggiungi nota",
+        "Aggiungi delle note",
+        "Alle note",
+        "Aggiungere alle note",
+        "Scrivi la nota",
+        "Sulle note",
+        "Scrivi sulle note",
+        "Aggiungere note",
+        "Aggiungi alle note"
+      ],
+      "responses": [
+        "Certo",
+        "Aggiungo subito una nota",
+        "Prendo carta e penna!",
+        "Certo, dammi un momento"
+      ]
+    },
+    {
+      "tag": "get_notes",
+      "patterns": [
+        "Fammi vedere le note",
+        "Voglio vedere le note",
+        "Vorrei vedere le note",
+        "Mostrami le note",
+        "Mostra le note",
+        "Apri le note",
+        "Mostra gli appunti",
+        "Fammi vedere gli appunti",
+        "Apri gli appunti",
+        "Mostra la nota",
+        "Apri la nota con titolo",
+        "Mostra la nota con titolo",
+        "Fammi vedere la nota"
+      ],
+      "responses": [
+        "Certo",
+        "Prendo subito il blocco note",
+        "Si, prendo subito le note",
+        "Certo, dammi un momento"
+      ]
+    },
+    {
+      "tag": "delete_note",
+      "patterns": [
+        "Elimina tutte le note",
+        "Butta la nota",
+        "Cancella la nota",
+        "Butta tutte le note",
+        "Cancella tutte le note",
+        "Elimina note",
+        "Cancella note",
+        "Cancella le note",
+        "Elimina le note",
+        "Elimina una nota",
+        "Butta una nota"
+      ],
+      "responses": [
+        "Capita a tutti di sbagliare",
+        "Facciamo un po' di pulizia",
+        "Certo, prendo carta e penna",
+        "Ok, sto aprendo le note"
+      ]
+    },
+    {
+      "tag": "get_agenda",
+      "patterns": [
+        "Mostra gli impegni in agenda",
+        "Mostra gli impegni in agenda per",
+        "Che impegni ho in agenda?",
+        "Che impegni ho in agenda per",
+        "Mostrami gli impegni in agenda",
+        "Mostrami gli impegni in agenda per",
+        "Fammi vedere gli impegni in agenda",
+        "Fammi vedere gli impegni",
+        "Mostrami gli impegni",
+        "Che impegni ho per domani",
+        "Che impegni ho per oggi",
+        "Che impegni ho per dopodomani"
+      ],
+      "responses": [
+        "Certo, apro subito l'agenda",
+        "Ecco a te l'agenda",
+        "Ti mostro subito l'agenda",
+        "Ecco a te",
+        "Subito"
+      ]
+    },
+    {
+      "tag": "add_agenda",
+      "patterns": [
+        "Voglio aggiungere un impegno in agenda",
+        "Aggingi un impegno in agenda",
+        "Aggiungi un impegno per il",
+        "Aggiungi all'agenda",
+        "Scrivi un impegno in angenda",
+        "Aggiungi in agenda",
+        "Scrivi in agenda",
+        "Scrivi sull'agenda",
+        "Aggiungi un impegno in agenda per domani",
+        "Aggiungi un impegno in agenda per oggi",
+        "Aggiungi un impegno in agenda per dopodomani"
+      ],
+      "responses": [
+        "Che persona impegnata!",
+        "Certo",
+        "Ma se non hai mai niente da fare... Vabbè!",
+        "Prendo carta e penna!"
+      ]
+    },
+    {
+      "tag": "mark_as_done",
+      "patterns": [
+        "Segna impegno in agenda",
+        "Segna come fatto in agenda",
+        "Marca come fatto impegno in agenda",
+        "Segna impegno come fatto",
+        "Ho fatto l'impegno",
+        "Marca impegno come fatto"
+      ],
+      "responses": [
+        "Certo, depenno tutto quello che vuoi",
+        "Certo, apro l'agenda",
+        "subito, dammi un secondo",
+        "Certo"
+      ]
+    },
+    {
+      "tag": "confirm",
+      "patterns": [
+        "Certo",
+        "Si",
+        "Ovvio",
+        "Assolutamente",
+        "Certamente",
+        "Sicuro",
+        "Sicuramente si",
+        "Va bene",
+        "Sì",
+        "Assolutamente si",
+        "Assolutamente sì",
+        "Sicuramente sì",
+        "Confermo",
+        "Conferma"
+      ],
+      "responses": ["Va bene", "Fatto", "Ok, faccio subito", "Perfetto"]
+    },
+    {
+      "tag": "deny",
+      "patterns": [
+        "No",
+        "Assolutamente no",
+        "Lascia stare",
+        "Lascia perdere",
+        "La prossima volta",
+        "Niente",
+        "Annulla"
+      ],
+      "responses": [
+        "Allora passiamo ad altro",
+        "Fa niente, magari la prossima volta",
+        "Ok, come vuoi",
+        "Va bene",
+        "Certo, comandi tu!"
+      ]
+    },
+    {
+      "tag": "camera",
+      "patterns": [
+        "Apri la fotocamera",
+        "Scatta una foto",
+        "Foto",
+        "Fai una foto",
+        "Fotocamera",
+        "Mi scatti una foto?"
+      ],
+      "responses": [
+        "Certo, apro la fotocamera",
+        "Perché no",
+        "Certo, sei bellissimo",
+        "Va bene",
+        "Sto aprendo la fotocamera"
+      ]
+    },
+    {
+      "tag": "not_understand",
+      "patterns": [],
+      "responses": [
+        "Mi dispiace, non ho capito",
+        "Puoi ripetere?",
+        "C'era un po' di rumore, puoi ripetere?",
+        "Non ho capito. Ripeti, per favore"
+      ]
+    },
+    {
+      "tag": "search_google",
+      "patterns": [
+        "Cerca su Google",
+        "Ricerca su Google",
+        "Cerca su internet",
+        "Cercami su Google",
+        "Fai una ricerca per",
+        "Trova su google",
+        "Apri Google su",
+        "Apri Google",
+        "Cerca",
+        "Fai una ricerca"
+      ],
+      "responses": [
+        "Certo, apro subito Google",
+        "Su Google ho trovato questo",
+        "Ho trovato questi risultati"
+      ]
+    },
+    {
+      "tag": "open_youtube",
+      "patterns": [
+        "Apri Youtube",
+        "Metti su Youtube",
+        "Apri Youtube su",
+        "Metti un po' di musica su Youtube",
+        "Apri Youtube su",
+        "Cerca su Youtube"
+      ],
+      "responses": [
+        "Certo, apro subito Youtube",
+        "Mi piace la musica!",
+        "Ecco a te Youtube",
+        "Sto aprendo Youtube"
+      ]
+    },
+    {
+      "tag": "search_news",
+      "patterns": [
+        "Mostra le notizie",
+        "Fammi vedere le notizie per",
+        "Che novità ci sono su",
+        "Che succede nel mondo",
+        "Apri le news",
+        "Apri le notizie",
+        "Cerca le notizie per",
+        "Google News",
+        "Cerca notizie su",
+        "Cerca notizie sull"
+      ],
+      "responses": [
+        "Certo, ecco a te le notizie",
+        "Che tipo acculturato!",
+        "Vediamo che è successo oggi",
+        "Apro subito Google News"
+      ]
+    },
+    {
+      "tag": "search_wiki",
+      "patterns": [
+        "Cerca su Wikipedia",
+        "Che dice Wikipedia per",
+        "Apri Wikipedia su",
+        "Cercami su Wikipedia",
+        "Wikipedia"
+      ],
+      "responses": [
+        "Certo, ecco cosa ho trovato",
+        "Ecco Wikipedia",
+        "Che tipo acculturato!",
+        "Apro subito Wikipedia"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "Che tempo c'è",
+        "Che tempo fa",
+        "Piove a",
+        "C'è il sole a",
+        "Che tempo fa",
+        "Che clima c'è",
+        "Che temperatura c'è a",
+        "Qual'è la temperatura a",
+        "Che clima c'è da me",
+        "Che tempo fa qui da me"
+      ],
+      "responses": ["Te lo dico subito", "Ora cerco"]
+    }
+  ]
+}

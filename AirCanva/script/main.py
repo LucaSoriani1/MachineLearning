@@ -266,12 +266,21 @@ while True:
     imgGray = cv2.cvtColor(imgCanvas, cv2.COLOR_BGR2GRAY)
 
     # Converting the image to grayscale, then inverting it, and then converting it back to BGR.
+    # The above code is performing thresholding on a grayscale image `imgGray` using a threshold value
+    # of 20. Pixels with intensity values below 20 are set to 255 (white) and pixels with intensity
+    # values above or equal to 20 are set to 0 (black). The `cv2.THRESH_BINARY_INV` flag is used to
+    # invert the binary image, so that the foreground (white) pixels become black and the background
+    # (black) pixels become white. The resulting binary image is stored in the variable `imgInv`.
     _, imgInv = cv2.threshold(imgGray, 20, 255, cv2.THRESH_BINARY_INV)
 
     # Converting the image to grayscale, then inverting it, and then converting it back to BGR.
     imgInv = cv2.cvtColor(imgInv, cv2.COLOR_GRAY2BGR)
 
     # Making the background transparent.
+    # The above code is performing a bitwise AND operation between the image 'img' and its inverse
+    # 'imgInv'. This operation will result in a new image where the pixels that are common in both
+    # images will be retained, while the pixels that are different will be set to zero. This can be
+    # useful for various image processing tasks such as masking, thresholding, and segmentation.
     img = cv2.bitwise_and(img, imgInv)
     img_copy = cv2.bitwise_and(img_copy, imgInv)
 
